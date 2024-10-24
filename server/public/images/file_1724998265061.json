@@ -1,0 +1,294 @@
+[
+  {
+    "status": "approved",
+    "prompt": "Triage Response",
+    "scene": {
+      "environment": "DefaultEnvironment",
+      "time": "s3://metabull3dassets/Approved_Production_Assets/Pie_Hole_Cafe_ACES_WorldLighting_Forest.blend",
+      "lighting": {
+        "prompt": "Nicely lit three-point lighting with warm tones.",
+        "subject": "default",
+        "output": {
+          "lights": [
+            {
+              "name": "Key Light",
+              "type": "AREA",
+              "keyframes": [
+                {
+                  "time": 0,
+                  "location": {
+                    "x": 0.8,
+                    "y": -0.05,
+                    "z": 2.2
+                  },
+                  "rotation": {
+                    "x": 45,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "disable_in_render": false,
+                  "light_settings": {
+                    "color": [
+                      1,
+                      0.8,
+                      0.6
+                    ],
+                    "intensity": 500,
+                    "diffuse": 0.5,
+                    "specular": 0.5,
+                    "volume": 0.75,
+                    "shape": "RECTANGLE",
+                    "size": 2,
+                    "size_y": 2,
+                    "custom_distance": false,
+                    "distance": 40,
+                    "shadow": true,
+                    "clip_start": 0.05,
+                    "bias": 0.05,
+                    "contact_shadow": false,
+                    "contact_shadow_distance": 0.2,
+                    "contact_shadow_bias": 0.05,
+                    "contact_shadow_thickness": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Fill Light",
+              "type": "AREA",
+              "keyframes": [
+                {
+                  "time": 0,
+                  "location": {
+                    "x": -1.5,
+                    "y": -0.05,
+                    "z": 2.2
+                  },
+                  "rotation": {
+                    "x": 45,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "disable_in_render": false,
+                  "light_settings": {
+                    "color": [
+                      1,
+                      0.8,
+                      0.6
+                    ],
+                    "intensity": 100,
+                    "diffuse": 0.5,
+                    "specular": 0.5,
+                    "volume": 0.75,
+                    "shape": "RECTANGLE",
+                    "size": 2,
+                    "size_y": 2,
+                    "custom_distance": false,
+                    "distance": 40,
+                    "shadow": true,
+                    "clip_start": 0.05,
+                    "bias": 0.05,
+                    "contact_shadow": false,
+                    "contact_shadow_distance": 0.2,
+                    "contact_shadow_bias": 0.05,
+                    "contact_shadow_thickness": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Back Light",
+              "type": "AREA",
+              "keyframes": [
+                {
+                  "time": 0,
+                  "location": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 2.5
+                  },
+                  "rotation": {
+                    "x": 45,
+                    "y": 0,
+                    "z": 180
+                  },
+                  "disable_in_render": false,
+                  "light_settings": {
+                    "color": [
+                      1,
+                      0.8,
+                      0.6
+                    ],
+                    "intensity": 200,
+                    "diffuse": 0.5,
+                    "specular": 0.5,
+                    "volume": 0.75,
+                    "shape": "RECTANGLE",
+                    "size": 2,
+                    "size_y": 2,
+                    "custom_distance": false,
+                    "distance": 40,
+                    "shadow": true,
+                    "clip_start": 0.05,
+                    "bias": 0.05,
+                    "contact_shadow": false,
+                    "contact_shadow_distance": 0.2,
+                    "contact_shadow_bias": 0.05,
+                    "contact_shadow_thickness": 0.1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "camera": {
+        "prompt": "Close-up static shot on Kevin's face.",
+        "location": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "keyframes": [
+          {
+            "time": 0,
+            "location": {
+              "x": 0,
+              "y": -2,
+              "z": 1.524
+            },
+            "rotation": {
+              "x": 90,
+              "y": 0,
+              "z": 0
+            },
+            "lens": 85,
+            "aperture": 2.8,
+            "ease-type": "linear"
+          },
+          {
+            "time": 96,
+            "location": {
+              "x": 0,
+              "y": -2,
+              "z": 1.524
+            },
+            "rotation": {
+              "x": 90,
+              "y": 0,
+              "z": 0
+            },
+            "lens": 85,
+            "aperture": 2.8,
+            "ease-type": "linear"
+          }
+        ]
+      },
+      "objects": [
+        {
+          "name": "Pie hole cafe",
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "file": "s3://metabull3dassets/Approved_Production_Assets/Pie_Hole_Cafe_Packed_Clean_ACES_IMPORT.blend",
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "actors": [
+        {
+          "name": "Kevin",
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "file": "s3://metabull3dassets/Approved_Production_Assets/Kevin_ACES_001.blend"
+        }
+      ],
+      "paths": [
+        {
+          "prompt": "Kevin prays",
+          "actor": "Kevin",
+          "start": "Bench_outdoor",
+          "target": "Bench_outdoor",
+          "path_points": [
+            {
+              "x": -5.421655654907227,
+              "y": -5.551538944244385,
+              "z": 0.30770599842071533
+            }
+          ]
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "ANIM",
+        "actor": "Kevin",
+        "action": "pray",
+        "start_time": 0,
+        "end_time": 0,
+        "file": "s3://metabull3dassets/Approved_Production_Assets/Approved_Motions/pray-crucifix.fbx"
+      },
+      {
+        "type": "AUDIO",
+        "actor": "Kevin",
+        "start_time": 0,
+        "end_time": 0,
+        "file": "s3://metabull-ai-audio-generated-output/1722560018/dialogues/KEVIN1.wav",
+        "content": "Benditos sean los baristas del Pie Hole Cafe."
+      },
+      {
+        "type": "SET_CAM_SHOT",
+        "start_time": 0,
+        "target": "Kevin",
+        "shot": "Wide",
+        "facing": "Front",
+        "follow": "true",
+        "blur": -1
+      }
+    ],
+    "render_sequence": {
+      "type": "EDITORIAL_HD",
+      "output_name": 1722560018,
+      "frame_rate": 24,
+      "quality": 100,
+      "max_frames": 300,
+      "min_frames": 192,
+      "samples": 150
+    },
+    "extra_info": {
+      "errors": [],
+      "warnings": [],
+      "infos": [
+        "No number data provided, but is not required: scene.camera.focal_length"
+      ]
+    }
+  }
+]
